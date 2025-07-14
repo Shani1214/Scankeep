@@ -24,7 +24,7 @@ struct ContactSupport: View {
         VStack {
             ScrollView {
                 VStack {
-                    Text("Hi Ali ! How are you you")
+                    Text("Hi Ali ! How are you you youuuu")
                     Text("""
                      Fill out the form below, and 
                      our team will get back to 
