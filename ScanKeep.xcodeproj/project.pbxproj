@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A002FF32DEECA24001106D1 /* SubmitCodeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A002FF22DEECA24001106D1 /* SubmitCodeScreen.swift */; };
+		9A002FF62DEECC9D001106D1 /* OtpFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A002FF52DEECC9D001106D1 /* OtpFieldView.swift */; };
+		9A002FF82DEED50A001106D1 /* SetNewPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A002FF72DEED50A001106D1 /* SetNewPassword.swift */; };
+		9A002FFB2DEEED08001106D1 /* CreateAccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A002FFA2DEEED08001106D1 /* CreateAccountScreen.swift */; };
+		9A07A6CE2DEEAC5000AC937D /* Overlayedbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A07A6CD2DEEAC5000AC937D /* Overlayedbutton.swift */; };
+		9A07A6D12DEEC6D000AC937D /* ForgotPasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A07A6D02DEEC6D000AC937D /* ForgotPasswordScreen.swift */; };
+		9A2E00E12DF66D06001D9142 /* PersonalInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2E00E02DF66D06001D9142 /* PersonalInformation.swift */; };
+		9A3B59E12DEC7ECF00970C73 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3B59E02DEC7ECF00970C73 /* LoginScreen.swift */; };
+		9A3FD5982DF0122D00E66B36 /* EmailOTPScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3FD5972DF0122D00E66B36 /* EmailOTPScreen.swift */; };
+		9A3FD59B2DF01C1300E66B36 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3FD59A2DF01C1300E66B36 /* HomeScreen.swift */; };
+		9A43A2F72DF93A4A0027B565 /* Delete Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A43A2F62DF93A4A0027B565 /* Delete Account.swift */; };
+		9A5A650C2DF563F300B55E9F /* ReceiptScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A650B2DF563F300B55E9F /* ReceiptScreen.swift */; };
+		9A5A650E2DF583BD00B55E9F /* ReceiptDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A650D2DF583BD00B55E9F /* ReceiptDetails.swift */; };
+		9A623C6C2DED61280037C6F3 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A623C6B2DED61280037C6F3 /* TextField.swift */; };
+		9A623D952DED74880037C6F3 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A623D942DED74880037C6F3 /* PrimaryButton.swift */; };
+		9A623FD92DED8AC70037C6F3 /* PasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A623FD82DED8AC70037C6F3 /* PasswordField.swift */; };
+		9A7BD9032DF8AEDA00263707 /* ContactSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7BD9022DF8AEDA00263707 /* ContactSupport.swift */; };
+		9A7BD9062DF8B25B00263707 /* TextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7BD9052DF8B25B00263707 /* TextEditor.swift */; };
+		9AA2FF3E2DF0550A00592072 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2FF3D2DF0550A00592072 /* MainTabView.swift */; };
+		9AAD24872E013ACB0067095C /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAD24862E013ACB0067095C /* HomeScreenView.swift */; };
+		9AC76C942DF15BBB0050D022 /* ScanReceiptOCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC76C932DF15BBB0050D022 /* ScanReceiptOCR.swift */; };
+		9ADCD7972DEC631D0018ACFC /* OnBoardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADCD7962DEC631D0018ACFC /* OnBoardingScreen.swift */; };
+		9AE339582DF6627E0009541D /* NotificationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE339572DF6627E0009541D /* NotificationScreen.swift */; };
+		9AE3395B2DF667190009541D /* SettingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE3395A2DF667190009541D /* SettingScreen.swift */; };
+		9AE67B672DF849EF00269B03 /* SubscriptionPlans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE67B662DF849EF00269B03 /* SubscriptionPlans.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A002FF22DEECA24001106D1 /* SubmitCodeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitCodeScreen.swift; sourceTree = "<group>"; };
+		9A002FF52DEECC9D001106D1 /* OtpFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpFieldView.swift; sourceTree = "<group>"; };
+		9A002FF72DEED50A001106D1 /* SetNewPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetNewPassword.swift; sourceTree = "<group>"; };
+		9A002FFA2DEEED08001106D1 /* CreateAccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountScreen.swift; sourceTree = "<group>"; };
+		9A07A6CD2DEEAC5000AC937D /* Overlayedbutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlayedbutton.swift; sourceTree = "<group>"; };
+		9A07A6D02DEEC6D000AC937D /* ForgotPasswordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordScreen.swift; sourceTree = "<group>"; };
+		9A2E00E02DF66D06001D9142 /* PersonalInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInformation.swift; sourceTree = "<group>"; };
+		9A3B59E02DEC7ECF00970C73 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		9A3FD5972DF0122D00E66B36 /* EmailOTPScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailOTPScreen.swift; sourceTree = "<group>"; };
+		9A3FD59A2DF01C1300E66B36 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		9A43A2F62DF93A4A0027B565 /* Delete Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Delete Account.swift"; sourceTree = "<group>"; };
+		9A5A650B2DF563F300B55E9F /* ReceiptScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptScreen.swift; sourceTree = "<group>"; };
+		9A5A650D2DF583BD00B55E9F /* ReceiptDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptDetails.swift; sourceTree = "<group>"; };
+		9A623C6B2DED61280037C6F3 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		9A623D942DED74880037C6F3 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		9A623FD82DED8AC70037C6F3 /* PasswordField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordField.swift; sourceTree = "<group>"; };
+		9A7BD9022DF8AEDA00263707 /* ContactSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactSupport.swift; sourceTree = "<group>"; };
+		9A7BD9052DF8B25B00263707 /* TextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor.swift; sourceTree = "<group>"; };
+		9A9209AA2DEC571500CB41C5 /* ScanKeep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanKeep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA2FF3D2DF0550A00592072 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		9AAD24862E013ACB0067095C /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		9AC76C932DF15BBB0050D022 /* ScanReceiptOCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanReceiptOCR.swift; sourceTree = "<group>"; };
+		9ADCD7962DEC631D0018ACFC /* OnBoardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreen.swift; sourceTree = "<group>"; };
+		9AE339572DF6627E0009541D /* NotificationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationScreen.swift; sourceTree = "<group>"; };
+		9AE3395A2DF667190009541D /* SettingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScreen.swift; sourceTree = "<group>"; };
+		9AE67B662DF849EF00269B03 /* SubscriptionPlans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionPlans.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9ADCD79F2DEC6A570018ACFC /* Exceptions for "ScanKeep" folder in "ScanKeep" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 9A9209A92DEC571500CB41C5 /* ScanKeep */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9A9209AC2DEC571500CB41C5 /* ScanKeep */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9ADCD79F2DEC6A570018ACFC /* Exceptions for "ScanKeep" folder in "ScanKeep" target */,
+			);
+			path = ScanKeep;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A9209A72DEC571500CB41C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A002FF42DEECC8A001106D1 /* OTPFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				9A002FF52DEECC9D001106D1 /* OtpFieldView.swift */,
+			);
+			path = OTPFieldView;
+			sourceTree = "<group>";
+		};
+		9A002FF92DEEECEC001106D1 /* AccountCreationScreens */ = {
+			isa = PBXGroup;
+			children = (
+				9A002FFA2DEEED08001106D1 /* CreateAccountScreen.swift */,
+				9A3FD5972DF0122D00E66B36 /* EmailOTPScreen.swift */,
+			);
+			path = AccountCreationScreens;
+			sourceTree = "<group>";
+		};
+		9A07A6CF2DEEC69000AC937D /* ForgotPasswordScreens */ = {
+			isa = PBXGroup;
+			children = (
+				9A07A6D02DEEC6D000AC937D /* ForgotPasswordScreen.swift */,
+				9A002FF22DEECA24001106D1 /* SubmitCodeScreen.swift */,
+				9A002FF72DEED50A001106D1 /* SetNewPassword.swift */,
+			);
+			path = ForgotPasswordScreens;
+			sourceTree = "<group>";
+		};
+		9A3B59DD2DEC7C3100970C73 /* LoginScreensView */ = {
+			isa = PBXGroup;
+			children = (
+				9A3B59E02DEC7ECF00970C73 /* LoginScreen.swift */,
+			);
+			path = LoginScreensView;
+			sourceTree = "<group>";
+		};
+		9A3FD5992DF01BDE00E66B36 /* HomeScreens */ = {
+			isa = PBXGroup;
+			children = (
+				9A3FD59A2DF01C1300E66B36 /* HomeScreen.swift */,
+				9AAD24862E013ACB0067095C /* HomeScreenView.swift */,
+			);
+			path = HomeScreens;
+			sourceTree = "<group>";
+		};
+		9A5A650A2DF5639300B55E9F /* ReceiptScreens */ = {
+			isa = PBXGroup;
+			children = (
+				9A5A650B2DF563F300B55E9F /* ReceiptScreen.swift */,
+				9A5A650D2DF583BD00B55E9F /* ReceiptDetails.swift */,
+			);
+			path = ReceiptScreens;
+			sourceTree = "<group>";
+		};
+		9A623C6A2DED610E0037C6F3 /* TextFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				9A623C6B2DED61280037C6F3 /* TextField.swift */,
+			);
+			path = TextFieldView;
+			sourceTree = "<group>";
+		};
+		9A623D932DED747A0037C6F3 /* ButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				9A623D942DED74880037C6F3 /* PrimaryButton.swift */,
+				9A07A6CD2DEEAC5000AC937D /* Overlayedbutton.swift */,
+			);
+			path = ButtonView;
+			sourceTree = "<group>";
+		};
+		9A623FD72DED8AAB0037C6F3 /* SecureField */ = {
+			isa = PBXGroup;
+			children = (
+				9A623FD82DED8AC70037C6F3 /* PasswordField.swift */,
+			);
+			path = SecureField;
+			sourceTree = "<group>";
+		};
+		9A7BD9042DF8B24400263707 /* Texteditor */ = {
+			isa = PBXGroup;
+			children = (
+				9A7BD9052DF8B25B00263707 /* TextEditor.swift */,
+			);
+			path = Texteditor;
+			sourceTree = "<group>";
+		};
+		9A9209A12DEC571500CB41C5 = {
+			isa = PBXGroup;
+			children = (
+				9A7BD9042DF8B24400263707 /* Texteditor */,
+				9AE67B652DF849DB00269B03 /* SubscriptionPlans */,
+				9AE339592DF666FF0009541D /* SettingScreensView */,
+				9AE339562DF662090009541D /* NotificationsScreens */,
+				9A5A650A2DF5639300B55E9F /* ReceiptScreens */,
+				9AC76C922DF159BB0050D022 /* ScanReceiptScreens */,
+				9AA2FF3C2DF054E500592072 /* Tabbar */,
+				9A3FD5992DF01BDE00E66B36 /* HomeScreens */,
+				9A002FF92DEEECEC001106D1 /* AccountCreationScreens */,
+				9A002FF42DEECC8A001106D1 /* OTPFieldView */,
+				9A07A6CF2DEEC69000AC937D /* ForgotPasswordScreens */,
+				9A623FD72DED8AAB0037C6F3 /* SecureField */,
+				9A623D932DED747A0037C6F3 /* ButtonView */,
+				9A623C6A2DED610E0037C6F3 /* TextFieldView */,
+				9A3B59DD2DEC7C3100970C73 /* LoginScreensView */,
+				9ADCD7952DEC63070018ACFC /* OnBoardingScreen */,
+				9A9209AC2DEC571500CB41C5 /* ScanKeep */,
+				9A9209AB2DEC571500CB41C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A9209AB2DEC571500CB41C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A9209AA2DEC571500CB41C5 /* ScanKeep.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AA2FF3C2DF054E500592072 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				9AA2FF3D2DF0550A00592072 /* MainTabView.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		9AC76C922DF159BB0050D022 /* ScanReceiptScreens */ = {
+			isa = PBXGroup;
+			children = (
+				9AC76C932DF15BBB0050D022 /* ScanReceiptOCR.swift */,
+			);
+			path = ScanReceiptScreens;
+			sourceTree = "<group>";
+		};
+		9ADCD7952DEC63070018ACFC /* OnBoardingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9ADCD7962DEC631D0018ACFC /* OnBoardingScreen.swift */,
+			);
+			path = OnBoardingScreen;
+			sourceTree = "<group>";
+		};
+		9AE339562DF662090009541D /* NotificationsScreens */ = {
+			isa = PBXGroup;
+			children = (
+				9AE339572DF6627E0009541D /* NotificationScreen.swift */,
+			);
+			path = NotificationsScreens;
+			sourceTree = "<group>";
+		};
+		9AE339592DF666FF0009541D /* SettingScreensView */ = {
+			isa = PBXGroup;
+			children = (
+				9AE3395A2DF667190009541D /* SettingScreen.swift */,
+				9A2E00E02DF66D06001D9142 /* PersonalInformation.swift */,
+				9A43A2F62DF93A4A0027B565 /* Delete Account.swift */,
+			);
+			path = SettingScreensView;
+			sourceTree = "<group>";
+		};
+		9AE67B652DF849DB00269B03 /* SubscriptionPlans */ = {
+			isa = PBXGroup;
+			children = (
+				9AE67B662DF849EF00269B03 /* SubscriptionPlans.swift */,
+				9A7BD9022DF8AEDA00263707 /* ContactSupport.swift */,
+			);
+			path = SubscriptionPlans;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A9209A92DEC571500CB41C5 /* ScanKeep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A9209B82DEC571700CB41C5 /* Build configuration list for PBXNativeTarget "ScanKeep" */;
+			buildPhases = (
+				9A9209A62DEC571500CB41C5 /* Sources */,
+				9A9209A72DEC571500CB41C5 /* Frameworks */,
+				9A9209A82DEC571500CB41C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9A9209AC2DEC571500CB41C5 /* ScanKeep */,
+			);
+			name = ScanKeep;
+			packageProductDependencies = (
+			);
+			productName = ScanKeep;
+			productReference = 9A9209AA2DEC571500CB41C5 /* ScanKeep.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A9209A22DEC571500CB41C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					9A9209A92DEC571500CB41C5 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 9A9209A52DEC571500CB41C5 /* Build configuration list for PBXProject "ScanKeep" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A9209A12DEC571500CB41C5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9A9209AB2DEC571500CB41C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A9209A92DEC571500CB41C5 /* ScanKeep */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A9209A82DEC571500CB41C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A9209A62DEC571500CB41C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ADCD7972DEC631D0018ACFC /* OnBoardingScreen.swift in Sources */,
+				9A002FF82DEED50A001106D1 /* SetNewPassword.swift in Sources */,
+				9A7BD9032DF8AEDA00263707 /* ContactSupport.swift in Sources */,
+				9AE339582DF6627E0009541D /* NotificationScreen.swift in Sources */,
+				9A07A6D12DEEC6D000AC937D /* ForgotPasswordScreen.swift in Sources */,
+				9A623FD92DED8AC70037C6F3 /* PasswordField.swift in Sources */,
+				9A623D952DED74880037C6F3 /* PrimaryButton.swift in Sources */,
+				9AE67B672DF849EF00269B03 /* SubscriptionPlans.swift in Sources */,
+				9A2E00E12DF66D06001D9142 /* PersonalInformation.swift in Sources */,
+				9A002FF32DEECA24001106D1 /* SubmitCodeScreen.swift in Sources */,
+				9A5A650C2DF563F300B55E9F /* ReceiptScreen.swift in Sources */,
+				9A5A650E2DF583BD00B55E9F /* ReceiptDetails.swift in Sources */,
+				9A002FFB2DEEED08001106D1 /* CreateAccountScreen.swift in Sources */,
+				9A3B59E12DEC7ECF00970C73 /* LoginScreen.swift in Sources */,
+				9A07A6CE2DEEAC5000AC937D /* Overlayedbutton.swift in Sources */,
+				9A43A2F72DF93A4A0027B565 /* Delete Account.swift in Sources */,
+				9A3FD59B2DF01C1300E66B36 /* HomeScreen.swift in Sources */,
+				9AE3395B2DF667190009541D /* SettingScreen.swift in Sources */,
+				9AAD24872E013ACB0067095C /* HomeScreenView.swift in Sources */,
+				9A7BD9062DF8B25B00263707 /* TextEditor.swift in Sources */,
+				9A3FD5982DF0122D00E66B36 /* EmailOTPScreen.swift in Sources */,
+				9AA2FF3E2DF0550A00592072 /* MainTabView.swift in Sources */,
+				9A623C6C2DED61280037C6F3 /* TextField.swift in Sources */,
+				9AC76C942DF15BBB0050D022 /* ScanReceiptOCR.swift in Sources */,
+				9A002FF62DEECC9D001106D1 /* OtpFieldView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9A9209B62DEC571700CB41C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A9209B72DEC571700CB41C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A9209B92DEC571700CB41C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScanKeep/Preview Content\"";
+				DEVELOPMENT_TEAM = 9G363TT9HR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScanKeep/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaniskills.ScanKeep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A9209BA2DEC571700CB41C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScanKeep/Preview Content\"";
+				DEVELOPMENT_TEAM = 9G363TT9HR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScanKeep/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaniskills.ScanKeep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A9209A52DEC571500CB41C5 /* Build configuration list for PBXProject "ScanKeep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9209B62DEC571700CB41C5 /* Debug */,
+				9A9209B72DEC571700CB41C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A9209B82DEC571700CB41C5 /* Build configuration list for PBXNativeTarget "ScanKeep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9209B92DEC571700CB41C5 /* Debug */,
+				9A9209BA2DEC571700CB41C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A9209A22DEC571500CB41C5 /* Project object */;
+}
